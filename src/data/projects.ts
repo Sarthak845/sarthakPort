@@ -61,8 +61,8 @@ export const categories: Category[] = [
     ]
   },
   {
-    id: 'electronics-powers',
-    name: 'Electronics & Power Systems',
+    id: 'electronics-power',
+    name: 'Electronics & Power System',
     description: 'Battery design, voltage regulation, power electronics, and high-voltage systems',
     projects: [
       {

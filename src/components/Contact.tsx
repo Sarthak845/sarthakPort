@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -9,12 +9,12 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-xl text-slate-300 mb-12 leading-relaxed">
-            Open to opportunities and collaborations in embedded systems, robotics, and EV engineering.
+            Open to opportunities and collaborations in embedded systems, avionics, robotics, and EV engineering.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="mailto:your.email@example.com"
+              href="sarthakroff@gmail.com"
               className="flex items-center gap-3 bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/50"
             >
               <Mail size={20} />
@@ -22,7 +22,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="http://www.linkedin.com/in/sarthak-rahate-b450a9253"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
@@ -32,13 +32,11 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://github.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:8459526488"
               className="flex items-center gap-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
             >
-              <Github size={20} />
-              <span>GitHub</span>
+              <Phone size={20} />
+              <span>845952648</span>
             </a>
           </div>
         </div>
