@@ -239,11 +239,11 @@ export const categories: Category[] = [
   {
     id: 'theoretical',
     name: 'Theoretical & Conceptual Projects',
-    description: 'AI, ADAS, and high-payload UAV concepts',
+    description: 'AI, ADAS, Jetson NANO, and high-payload UAV concepts',
     projects: [
       {
         id: 'adas-offroad',
-        title: 'ADAS for Off-Roading using Jetson Nano',
+        title: 'ADAS for Off Roading using Jetson Nano',
         description: 'Advanced Driver Assistance System concept for off-road vehicles using AI.',
         skills: ['AI Integration', 'Sensor Fusion', 'System Simulation'],
         tags: ['ADAS', 'AI', 'Off-road']

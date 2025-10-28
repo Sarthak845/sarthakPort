@@ -9,7 +9,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-xl text-slate-300 mb-12 leading-relaxed">
-            Open to opportunities and collaborations in embedded systems, avionics, robotics, and EV engineering.
+            Open to opportunities and collaborations in embedded systems, avionics, robotics, and electric vehical engineering.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -36,7 +36,7 @@ export default function Contact() {
               className="flex items-center gap-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
             >
               <Phone size={20} />
-              <span>845952648</span>
+              <span>8459526488</span>
             </a>
           </div>
         </div>
