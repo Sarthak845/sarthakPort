@@ -11,14 +11,14 @@ export const categories: Category[] = [
         title: 'BLDC EV Powertrain System',
         description: 'Full BLDC powertrain including motor, controller, and dashboard for EVs.',
         skills: ['Motor Control', 'Power Electronics', 'Embedded Systems'],
-        tags: ['Powertrain', 'BLDC', 'Control Systems']
+        tags: ['EV Powertrain', 'BLDC', 'Control Systems']
       },
       {
         id: 'ev-dashboard',
         title: 'Multiple-Featured EV Dashboard',
         description: 'Displays speed, battery, motor parameters, and other EV telemetry in real-time.',
         skills: ['Embedded Programming', 'Display Interfacing', 'Communication Protocols'],
-        tags: ['Dashboard', 'UI/UX', 'Real-time'],
+        tags: ['Dashboard', 'Control System', 'Real time'],
         isAward: true
       },
       {
@@ -26,7 +26,7 @@ export const categories: Category[] = [
         title: 'Pit Lane Limiter',
         description: 'Controls maximum vehicle speed in pit lane for safety during races.',
         skills: ['Embedded Control', 'Vehicle Electronics', 'Speed Regulation'],
-        tags: ['Racing', 'Safety', 'Control'],
+        tags: ['Racing', 'Safety', 'Control System'],
         isAward: true
       },
       {
@@ -42,7 +42,7 @@ export const categories: Category[] = [
         title: 'PMSM Powertrain Design',
         description: 'Custom Permanent Magnet Synchronous Motor powertrain for a Racing EV Go-Kart.',
         skills: ['Powertrain Design', 'Simulation', 'Mechanical Integration'],
-        tags: ['PMSM', 'Design', 'Racing']
+        tags: ['EV Powertrain', 'PMSM', 'Racing']
       },
       {
         id: 'rtd-sound',
@@ -56,13 +56,13 @@ export const categories: Category[] = [
         title: 'Rear View for Racing Vehicles',
         description: 'Provides a live rear-view feed for racing vehicles.',
         skills: ['Sensor Integration', 'Display Interfacing', 'Real-time Systems'],
-        tags: ['Camera', 'Racing', 'Display']
+        tags: ['Radar', 'Racing', 'Display']
       }
     ]
   },
   {
     id: 'electronics-power',
-    name: 'Electronics & Power System',
+    name: 'Electronics & Power Systems',
     description: 'Battery design, voltage regulation, power electronics, and high-voltage systems',
     projects: [
       {
@@ -77,7 +77,7 @@ export const categories: Category[] = [
         title: '72V 72Ah Battery Designing',
         description: 'Custom design of a high-capacity battery pack for EVs.',
         skills: ['Battery Management', 'Safety Compliance', 'Circuit Analysis'],
-        tags: ['Battery Design', 'BMS', 'Safety'],
+        tags: ['Battery Design', 'BMS configuration', 'Safety'],
         isAward: true
       },
       {
@@ -92,7 +92,7 @@ export const categories: Category[] = [
         title: 'Tasor (Stun Gun)',
         description: 'Produces high-voltage pulses for safety/self-defense applications.',
         skills: ['High-Voltage Electronics', 'Circuit Design', 'Safety'],
-        tags: ['High Voltage', 'Safety', 'Electronics']
+        tags: ['High Voltage', 'Safety', 'Self-defence']
       },
       {
         id: 'battery-pack',
@@ -114,6 +114,48 @@ export const categories: Category[] = [
         description: 'Uses a 555 timer to blink LEDs at set intervals.',
         skills: ['Analog Electronics', 'Timer Circuits', 'Embedded Logic'],
         tags: ['555 Timer', 'LED', 'Basics']
+      }
+    ]
+  },
+  {
+    id: 'drones-uav',
+    name: 'Drones & UAV Systems',
+    description: 'Flight controllers, drones, ESCs, and UAV design',
+    projects: [
+      {
+        id: 'fc-stm32',
+        title: 'Custom Flight Controller using STM32',
+        description: 'STM32-based controller with IMU, GPS for precise drone stabilization and navigation.',
+        skills: ['STM32', 'Sensor Fusion', 'PID Control', 'Real-time Systems'],
+        tags: ['Flight Control', 'STM32', 'Navigation']
+      },
+      {
+        id: 'fc-arduino',
+        title: 'Custom Flight Controller using Arduino',
+        description: 'Arduino-based flight controller for stabilizing and controlling drones.',
+        skills: ['Embedded Programming', 'Sensor Fusion', 'PID Control'],
+        tags: ['Flight Control', 'Arduino', 'Stabilization']
+      },
+      {
+        id: 'quadcopter',
+        title: 'FC- Quadcopter V1',
+        description: 'Fully assembled and controlled Quadcopter for research and practical use.',
+        skills: ['Aerodynamics', 'Motor & ESC Control', 'UAV Design'],
+        tags: ['Quadcopter', 'UAV', 'Drone']
+      },
+      {
+        id: 'custom-esc',
+        title: 'Custom ESC (Electronic Speed Controller)',
+        description: 'Custom speed controller to regulate motor speed for drones or EVs.',
+        skills: ['Power Electronics', 'Embedded Control', 'Motor Interfacing'],
+        tags: ['ESC', 'Motor Control', 'Motor manipulation']
+      },
+      {
+        id: 'nrf-comm',
+        title: 'Transmitter & Receiver using NRF modules',
+        description: 'Wireless communication system for remote control and telemetry.',
+        skills: ['RF Communication', 'Embedded Programming', 'Circuit Integration'],
+        tags: ['Wireless', 'NRF', 'Telemetry']
       }
     ]
   },
@@ -141,7 +183,7 @@ export const categories: Category[] = [
         title: 'Robotic Hand',
         description: 'Mimics human hand movements via servo motors and a DIY hand structure.',
         skills: ['Robotics', 'Actuator Control', 'Kinematics'],
-        tags: ['Manipulation', 'Servo', 'Biomimetic']
+        tags: ['Mechanical', 'Servo', 'Actuater']
       },
       {
         id: 'radar',
@@ -195,48 +237,6 @@ export const categories: Category[] = [
     ]
   },
   {
-    id: 'drones-uav',
-    name: 'Drones & UAV Systems',
-    description: 'Flight controllers, drones, ESCs, and UAV design',
-    projects: [
-      {
-        id: 'fc-stm32',
-        title: 'Custom Flight Controller using STM32',
-        description: 'STM32-based controller with IMU, GPS for precise drone stabilization and navigation.',
-        skills: ['STM32', 'Sensor Fusion', 'PID Control', 'Real-time Systems'],
-        tags: ['Flight Control', 'STM32', 'Navigation']
-      },
-      {
-        id: 'fc-arduino',
-        title: 'Custom Flight Controller using Arduino',
-        description: 'Arduino-based flight controller for stabilizing and controlling drones.',
-        skills: ['Embedded Programming', 'Sensor Fusion', 'PID Control'],
-        tags: ['Flight Control', 'Arduino', 'Stabilization']
-      },
-      {
-        id: 'quadcopter',
-        title: 'FC- Quadcopter V1',
-        description: 'Fully assembled and controlled Quadcopter for research and practical use.',
-        skills: ['Aerodynamics', 'Motor & ESC Control', 'UAV Design'],
-        tags: ['Quadcopter', 'UAV', 'Flight']
-      },
-      {
-        id: 'custom-esc',
-        title: 'Custom ESC (Electronic Speed Controller)',
-        description: 'Custom speed controller to regulate motor speed for drones or EVs.',
-        skills: ['Power Electronics', 'Embedded Control', 'Motor Interfacing'],
-        tags: ['ESC', 'Motor Control', 'Power']
-      },
-      {
-        id: 'nrf-comm',
-        title: 'Transmitter & Receiver using NRF modules',
-        description: 'Wireless communication system for remote control and telemetry.',
-        skills: ['RF Communication', 'Embedded Programming', 'Circuit Integration'],
-        tags: ['Wireless', 'NRF', 'Telemetry']
-      }
-    ]
-  },
-  {
     id: 'theoretical',
     name: 'Theoretical & Conceptual Projects',
     description: 'AI, ADAS, Jetson NANO, and high-payload UAV concepts',
@@ -253,8 +253,9 @@ export const categories: Category[] = [
         title: '5kg Payload Drone (Octocopter)',
         description: 'Conceptual design of a heavy-lift drone capable of carrying a 5kg payload.',
         skills: ['UAV Design', 'Structural Mechanics', 'Flight Dynamics'],
-        tags: ['Octocopter', 'Heavy-lift', 'SIH\'23']
+        tags: ['Octocopter', 'Heavy-lift', 'SIH\'25']
       }
     ]
   }
-];
+]
+;
